@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 7b3e1c119d459474999f33136d0d3c79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8470795158438339341
+    second: LogoUfs_0
+  - first:
+      213: 8288482511544349590
+    second: LogoUfs_1
+  - first:
+      213: -6521435806343114963
+    second: LogoUfs_2
+  - first:
+      213: -4608564906835874141
+    second: LogoUfs_3
+  - first:
+      213: -7614365844840741269
+    second: LogoUfs_4
+  - first:
+      213: 3400455129587891734
+    second: LogoUfs_5
+  - first:
+      213: -7196251156489393530
+    second: LogoUfs_6
+  - first:
+      213: -2899728438074388918
+    second: LogoUfs_7
+  - first:
+      213: 8952808312218353574
+    second: LogoUfs_8
+  - first:
+      213: -4459883912546061324
+    second: LogoUfs_9
+  - first:
+      213: 6818815455554796590
+    second: LogoUfs_10
+  - first:
+      213: 7400918884784027453
+    second: LogoUfs_11
+  - first:
+      213: 1788125428788578327
+    second: LogoUfs_12
+  - first:
+      213: -480647304304482270
+    second: LogoUfs_13
+  - first:
+      213: -9074148009406105320
+    second: LogoUfs_14
+  - first:
+      213: 6260208183170174702
+    second: LogoUfs_15
+  - first:
+      213: -2863861774140465667
+    second: LogoUfs_16
+  - first:
+      213: -1036871864075706526
+    second: LogoUfs_17
+  - first:
+      213: 1374302345955775614
+    second: LogoUfs_18
+  - first:
+      213: -1734007329871031701
+    second: LogoUfs_19
+  - first:
+      213: 4644374456966886783
+    second: LogoUfs_20
+  - first:
+      213: -4101721749312170830
+    second: LogoUfs_21
+  - first:
+      213: 9151249549928999345
+    second: LogoUfs_22
+  - first:
+      213: 1981937245889780661
+    second: LogoUfs_23
+  - first:
+      213: -2517612044679769297
+    second: LogoUfs_24
+  - first:
+      213: -6739727202638324860
+    second: LogoUfs_25
+  - first:
+      213: -2939892501106344391
+    second: LogoUfs_26
+  - first:
+      213: 8317107458038716652
+    second: LogoUfs_27
+  - first:
+      213: 8319933978918763334
+    second: LogoUfs_28
+  - first:
+      213: -677574868121378115
+    second: LogoUfs_29
+  - first:
+      213: 1620629392185219425
+    second: LogoUfs_30
+  - first:
+      213: -619056606048029182
+    second: LogoUfs_31
+  - first:
+      213: 8998002927836609189
+    second: LogoUfs_32
+  - first:
+      213: -1722774440233820540
+    second: LogoUfs_33
+  - first:
+      213: -4756582048565589380
+    second: LogoUfs_34
+  - first:
+      213: -1926973742327584501
+    second: LogoUfs_35
+  - first:
+      213: 6838256576469200456
+    second: LogoUfs_36
+  - first:
+      213: -388648595373745821
+    second: LogoUfs_37
+  - first:
+      213: -4430677940696888102
+    second: LogoUfs_38
+  - first:
+      213: -9114258665108292837
+    second: LogoUfs_39
+  - first:
+      213: 6196877275369191385
+    second: LogoUfs_40
+  - first:
+      213: -4142074703941368960
+    second: LogoUfs_41
+  - first:
+      213: 4257180267314589576
+    second: LogoUfs_42
+  - first:
+      213: -6100031918816274936
+    second: LogoUfs_43
+  - first:
+      213: 3873844549557395411
+    second: LogoUfs_44
+  - first:
+      213: 8163530282652058178
+    second: LogoUfs_45
+  - first:
+      213: -6301836679618833300
+    second: LogoUfs_46
+  - first:
+      213: 4267070401799637507
+    second: LogoUfs_47
+  - first:
+      213: 9107549448315666909
+    second: LogoUfs_48
+  - first:
+      213: -8168037184142925860
+    second: LogoUfs_49
+  - first:
+      213: 5075580257914965162
+    second: LogoUfs_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoUfs_0
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 364
+        width: 103
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc1f200fa0b17a80800000000000000
+      internalID: -8470795158438339341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 364
+        width: 103
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69373a31eea960370800000000000000
+      internalID: 8288482511544349590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 367
+        width: 103
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc769afa43f75a0800000000000000
+      internalID: -6521435806343114963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 364
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae67bb62a61b00c0800000000000000
+      internalID: -4608564906835874141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 364
+        width: 124
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6686645b96545690800000000000000
+      internalID: -7614365844840741269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_5
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 364
+        width: 111
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ebdb98ce7d03f20800000000000000
+      internalID: 3400455129587891734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_6
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 367
+        width: 89
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aa4f653b7c12c90800000000000000
+      internalID: -7196251156489393530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_7
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 88
+        width: 28
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e4a77595812c7d0800000000000000
+      internalID: -2899728438074388918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_8
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 330
+        width: 177
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af70f7d9b3ce3c70800000000000000
+      internalID: 8952808312218353574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_9
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 332
+        width: 204
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f37635063f4b12c0800000000000000
+      internalID: -4459883912546061324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_10
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 332
+        width: 204
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c7949778c41ae50800000000000000
+      internalID: 6818815455554796590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_11
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 330
+        width: 177
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d373803938855b660800000000000000
+      internalID: 7400918884784027453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_12
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 88
+        width: 29
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71849c48a92b0d810800000000000000
+      internalID: 1788125428788578327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_13
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 221
+        width: 512
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228aea4c2d56459f0800000000000000
+      internalID: -480647304304482270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 178
+        width: 127
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819f70c5676221280800000000000000
+      internalID: -9074148009406105320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 178
+        width: 103
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee0ad1bc2ab0e650800000000000000
+      internalID: 6260208183170174702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_16
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 178
+        width: 103
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd998ac3e48148d0800000000000000
+      internalID: -2863861774140465667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_17
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 178
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f9b20888a4c91f0800000000000000
+      internalID: -1036871864075706526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_18
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 176
+        width: 93
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e741ea8c3b0821310800000000000000
+      internalID: 1374302345955775614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 178
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b621d1945819fe7e0800000000000000
+      internalID: -1734007329871031701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 178
+        width: 34
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75b86f26f1247040800000000000000
+      internalID: 4644374456966886783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_21
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 176
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b411c40dc1c317c0800000000000000
+      internalID: -4101721749312170830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 176
+        width: 103
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9a872faf4cffe70800000000000000
+      internalID: 9151249549928999345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_23
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 178
+        width: 127
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb5064ac61418b10800000000000000
+      internalID: 1981937245889780661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_24
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 178
+        width: 34
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f231e9a2f25af0dd0800000000000000
+      internalID: -2517612044679769297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_25
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 176
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b94bb51dda772a0800000000000000
+      internalID: -6739727202638324860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_26
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 215
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93eb8b1b8576337d0800000000000000
+      internalID: -2939892501106344391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_27
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 215
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8562bca2d4c6370800000000000000
+      internalID: 8317107458038716652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_28
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 215
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bb7287fd7567370800000000000000
+      internalID: 8319933978918763334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_29
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 215
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2a4e45f35c896f0800000000000000
+      internalID: -677574868121378115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_30
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 215
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169d1c188d1ad7610800000000000000
+      internalID: 1620629392185219425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_31
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 215
+        width: 125
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206f5a4fb4ba867f0800000000000000
+      internalID: -619056606048029182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_32
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 215
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa30a94df35fdc70800000000000000
+      internalID: 8998002927836609189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_33
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 215
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e9db536c97718e0800000000000000
+      internalID: -1722774440233820540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_34
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 215
+        width: 108
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8f3a04d93dfdb0800000000000000
+      internalID: -4756582048565589380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_35
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 215
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b092f0547930245e0800000000000000
+      internalID: -1926973742327584501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_36
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 215
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eec6b202e56ee50800000000000000
+      internalID: 6838256576469200456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_37
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 125
+        width: 156
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3691b42692e3b9af0800000000000000
+      internalID: -388648595373745821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_38
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 123
+        width: 89
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc4a9e33e11382c0800000000000000
+      internalID: -4430677940696888102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_39
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 125
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bb1339806a38180800000000000000
+      internalID: -9114258665108292837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_40
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 125
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7321bac0bbff550800000000000000
+      internalID: 6196877275369191385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_41
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 123
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083817e90056486c0800000000000000
+      internalID: -4142074703941368960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_42
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 123
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fa61ac5ea841b30800000000000000
+      internalID: 4257180267314589576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_43
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 125
+        width: 80
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80659680a45585ba0800000000000000
+      internalID: -6100031918816274936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_44
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 123
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df9373e719a2c530800000000000000
+      internalID: 3873844549557395411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_45
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 125
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242ce923a8faa4170800000000000000
+      internalID: 8163530282652058178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_46
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 123
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64daceade06b88a0800000000000000
+      internalID: -6301836679618833300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_47
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 123
+        width: 87
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ac9da2ceda73b30800000000000000
+      internalID: 4267070401799637507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_48
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 125
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1092928f3846e70800000000000000
+      internalID: 9107549448315666909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_49
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 123
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf9af6057d45ae80800000000000000
+      internalID: -8168037184142925860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUfs_50
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 125
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacc10e5a55107640800000000000000
+      internalID: 5075580257914965162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoUfs_0: -8470795158438339341
+      LogoUfs_1: 8288482511544349590
+      LogoUfs_10: 6818815455554796590
+      LogoUfs_11: 7400918884784027453
+      LogoUfs_12: 1788125428788578327
+      LogoUfs_13: -480647304304482270
+      LogoUfs_14: -9074148009406105320
+      LogoUfs_15: 6260208183170174702
+      LogoUfs_16: -2863861774140465667
+      LogoUfs_17: -1036871864075706526
+      LogoUfs_18: 1374302345955775614
+      LogoUfs_19: -1734007329871031701
+      LogoUfs_2: -6521435806343114963
+      LogoUfs_20: 4644374456966886783
+      LogoUfs_21: -4101721749312170830
+      LogoUfs_22: 9151249549928999345
+      LogoUfs_23: 1981937245889780661
+      LogoUfs_24: -2517612044679769297
+      LogoUfs_25: -6739727202638324860
+      LogoUfs_26: -2939892501106344391
+      LogoUfs_27: 8317107458038716652
+      LogoUfs_28: 8319933978918763334
+      LogoUfs_29: -677574868121378115
+      LogoUfs_3: -4608564906835874141
+      LogoUfs_30: 1620629392185219425
+      LogoUfs_31: -619056606048029182
+      LogoUfs_32: 8998002927836609189
+      LogoUfs_33: -1722774440233820540
+      LogoUfs_34: -4756582048565589380
+      LogoUfs_35: -1926973742327584501
+      LogoUfs_36: 6838256576469200456
+      LogoUfs_37: -388648595373745821
+      LogoUfs_38: -4430677940696888102
+      LogoUfs_39: -9114258665108292837
+      LogoUfs_4: -7614365844840741269
+      LogoUfs_40: 6196877275369191385
+      LogoUfs_41: -4142074703941368960
+      LogoUfs_42: 4257180267314589576
+      LogoUfs_43: -6100031918816274936
+      LogoUfs_44: 3873844549557395411
+      LogoUfs_45: 8163530282652058178
+      LogoUfs_46: -6301836679618833300
+      LogoUfs_47: 4267070401799637507
+      LogoUfs_48: 9107549448315666909
+      LogoUfs_49: -8168037184142925860
+      LogoUfs_5: 3400455129587891734
+      LogoUfs_50: 5075580257914965162
+      LogoUfs_6: -7196251156489393530
+      LogoUfs_7: -2899728438074388918
+      LogoUfs_8: 8952808312218353574
+      LogoUfs_9: -4459883912546061324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

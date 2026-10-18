@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -14,41 +15,97 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject creditsPanel;
 
+    // Referências para créditos (arrastar no Inspector)
+    public Text creditsText;
+    public ScrollRect creditsScrollRect;
+    public float autoScrollSpeed = 20f;
+
+    // Referência ao script de transição
+    public Transition transitionScript;
+
     void Start()
     {
         ShowMainMenu();
+        SetupCredits();
+    }
+
+    void SetupCredits()
+    {
+        // Monta o texto de créditos
+        string[] credits = new string[]
+        {
+            "JOGARTE - Expedição em Sergipe",
+            "",
+            "Desenvolvido por:",
+            "João Victor Modesto dos Santos",
+            "",
+            "Motor:",
+            "Unity Engine",
+            "",
+            "Assets e Ferramentas:",
+            "João Victor Modesto dos Santos",
+            "",
+            "Música e Efeitos Sonoros:",
+            "João Victor Modesto dos Santos",
+            "",
+            "Obras utilizadas do:",
+            "Gabinete de Estampas",
+            "",
+            "Agradecimentos Especiais:",
+            "Ao meu amor Pâmela Evany.",
+            "Meus irmãos Paulinho, Ailton, Júnior, Jhoe, Shini, Cesário, Arianny.",
+            "À Gabi, Fancy, Amélia, John, minha mãe Gildete e minha irmã Tainara.",
+            "A minha orientadora, Profa. Dra. MArjorie Severo Garrido por ter acreditado neste trabalho e aos testadores alpha, por todo apoio e incentivo durante o desenvolvimento do jogo.",
+            "",
+            "Obrigado por jogar!"
+        };
+
+        if (creditsText != null)
+        {
+            creditsText.text = string.Join("\n", credits);
+        }
     }
 
     void Update()
     {
-        // Compatibilidade com Input Manager (antigo): "Submit" e "Cancel"
-        // Submit -> confirma/ativa (ex.: tecla Enter, botão de UI mapeado)
-        if (Input.GetButtonDown("Submit"))
+        // Auto-scroll de créditos
+        if (creditsPanel != null && creditsPanel.activeSelf && creditsScrollRect != null && autoScrollSpeed > 0)
         {
-            if (mainMenuPanel != null && mainMenuPanel.activeSelf)
-            {
-                Jogar();
-            }
+            creditsScrollRect.verticalNormalizedPosition -= Time.deltaTime * autoScrollSpeed / 50f;
+            creditsScrollRect.verticalNormalizedPosition = Mathf.Clamp01(creditsScrollRect.verticalNormalizedPosition);
         }
+    }
 
-        // Cancel ou Back/Escape -> volta ou sai
-        if (Input.GetButtonDown("Cancel") || Input.GetKeyDown(KeyCode.Escape))
+    // Métodos de scroll manual (conectar em botões se quiser)
+    public void ScrollCreditsUp()
+    {
+        if (creditsScrollRect != null)
         {
-            if (creditsPanel != null && creditsPanel.activeSelf)
-            {
-                ShowMainMenu();
-            }
-            else if (mainMenuPanel != null && mainMenuPanel.activeSelf)
-            {
-                QuitGame();
-            }
+            creditsScrollRect.verticalNormalizedPosition += 0.1f;
+        }
+    }
+
+    public void ScrollCreditsDown()
+    {
+        if (creditsScrollRect != null)
+        {
+            creditsScrollRect.verticalNormalizedPosition -= 0.1f;
         }
     }
 
     // Método equivalente ao botão "Jogar" (conectar Jogar -> MainMenu.Jogar())
     public void Jogar()
     {
-        StartGame();
+        if (transitionScript != null)
+        {
+            // Usa transição se o script estiver referenciado
+            transitionScript.PlayTransition(gameSceneName);
+        }
+        else
+        {
+            // Carrega direto se não houver transição
+            StartGame();
+        }
     }
 
     public void StartGame()
@@ -85,6 +142,12 @@ public class MainMenu : MonoBehaviour
     public void ShowCredits()
     {
         SetPanels(false, true);
+
+        // Reseta scroll de créditos ao abrir
+        if (creditsScrollRect != null)
+        {
+            creditsScrollRect.verticalNormalizedPosition = 1f;
+        }
     }
 
     public void QuitGame()

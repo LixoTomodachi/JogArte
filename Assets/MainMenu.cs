@@ -9,7 +9,7 @@ using UnityEditor;
 public class MainMenu : MonoBehaviour
 {
     // Nome da cena do jogo a ser carregada ao iniciar
-    public string gameSceneName = "GameScene";
+    public string gameSceneName = "Cena1";
 
     // Referências aos painéis do menu (arrastar no Inspector)
     public GameObject mainMenuPanel;
@@ -19,9 +19,6 @@ public class MainMenu : MonoBehaviour
     public Text creditsText;
     public ScrollRect creditsScrollRect;
     public float autoScrollSpeed = 20f;
-
-    // Referência ao script de transição
-    public Transition transitionScript;
 
     void Start()
     {
@@ -52,10 +49,12 @@ public class MainMenu : MonoBehaviour
             "Gabinete de Estampas",
             "",
             "Agradecimentos Especiais:",
-            "Ao meu amor Pâmela Evany.",
-            "Meus irmãos Paulinho, Ailton, Júnior, Jhoe, Shini, Cesário, Arianny.",
-            "À Gabi, Fancy, Amélia, John, minha mãe Gildete e minha irmã Tainara.",
-            "A minha orientadora, Profa. Dra. MArjorie Severo Garrido por ter acreditado neste trabalho e aos testadores alpha, por todo apoio e incentivo durante o desenvolvimento do jogo.",
+            "Aos meus amores, Gildete Ancelma e Pâmela Evany.",
+            "Aos meus irmãos e irmãs Tainara, Paulinho, Ailton, Júnior, Jhoe, Shini e Arianny.",
+            "À Gabi, Francy, Amélia, John, Daniel",
+            "À meus professores: Prof. Xakal, Prof. Dr. Wellington Cesário e Profa. Dra. Marjorie Severo Garrido",
+            "por acreditar em mim e neste trabalho",
+            "E aos testadores alpha, por todo apoio e incentivo durante o desenvolvimento do jogo.",
             "",
             "Obrigado por jogar!"
         };
@@ -69,7 +68,7 @@ public class MainMenu : MonoBehaviour
     void Update()
     {
         // Auto-scroll de créditos
-        if (creditsPanel != null && creditsPanel.activeSelf && creditsScrollRect != null && autoScrollSpeed > 0)
+        if (creditsPanel != null && creditsPanel.activeSelf && creditsScrollRect != null && autoScrollSpeed > 100)
         {
             creditsScrollRect.verticalNormalizedPosition -= Time.deltaTime * autoScrollSpeed / 50f;
             creditsScrollRect.verticalNormalizedPosition = Mathf.Clamp01(creditsScrollRect.verticalNormalizedPosition);
@@ -96,16 +95,7 @@ public class MainMenu : MonoBehaviour
     // Método equivalente ao botão "Jogar" (conectar Jogar -> MainMenu.Jogar())
     public void Jogar()
     {
-        if (transitionScript != null)
-        {
-            // Usa transição se o script estiver referenciado
-            transitionScript.PlayTransition(gameSceneName);
-        }
-        else
-        {
-            // Carrega direto se não houver transição
-            StartGame();
-        }
+        SceneManager.LoadScene("Transition");
     }
 
     public void StartGame()

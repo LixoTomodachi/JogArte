@@ -11,7 +11,7 @@ TagManager:
   - Transition
   - Water
   - UI
-  - 
+  - Personagens
   - 
   - 
   - 
@@ -40,6 +40,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3295318089
+    locked: 0
+  - name: Foreground
+    uniqueID: 1910483325
+    locked: 0
+  - name: Characters
+    uniqueID: 183387659
+    locked: 0
+  - name: UI
+    uniqueID: 3903393501
     locked: 0
   m_RenderingLayers:
   - Default

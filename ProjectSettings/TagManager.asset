@@ -11,7 +11,7 @@ TagManager:
   - Personagens
   - Water
   - UI
-  - 
+  - Chao
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 1910483325
+    locked: 0
+  - name: Ground
+    uniqueID: 724788229
+    locked: 0
+  - name: Interactions
+    uniqueID: 3513044663
     locked: 0
   - name: Characters
     uniqueID: 183387659

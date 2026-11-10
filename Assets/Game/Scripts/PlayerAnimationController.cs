@@ -29,5 +29,7 @@ public class PlayerAnimationController : MonoBehaviour
     private void Update()
     {
         animator.SetBool("Walk", playerMovement.Walk);
+        animator.SetBool("Jump", playerMovement.Jump);
     }
+
 }

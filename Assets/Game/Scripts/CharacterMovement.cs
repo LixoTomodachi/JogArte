@@ -24,6 +24,7 @@ public class CharacterMovement : MonoBehaviour
 
     //Agora conseguimos animar a "andada" do personagem com base na velocidade horizontal
     public bool Walk => Mathf.Abs(direcaoHorizontal) > 0.1f;
+    public bool Jump => !estaNoChao;
 
     void Start()
     {

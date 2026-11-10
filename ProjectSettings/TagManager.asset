@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Chao
-  - 
+  - Transition
   - 
   - 
   - 
@@ -44,9 +44,6 @@ TagManager:
   - name: Background
     uniqueID: 3295318089
     locked: 0
-  - name: Foreground
-    uniqueID: 1910483325
-    locked: 0
   - name: Ground
     uniqueID: 724788229
     locked: 0
@@ -56,8 +53,14 @@ TagManager:
   - name: Characters
     uniqueID: 183387659
     locked: 0
+  - name: Foreground
+    uniqueID: 1910483325
+    locked: 0
   - name: UI
     uniqueID: 3903393501
+    locked: 0
+  - name: Transition
+    uniqueID: 1931836939
     locked: 0
   m_RenderingLayers:
   - Default

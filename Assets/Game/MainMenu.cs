@@ -120,17 +120,11 @@ public class MainMenu : MonoBehaviour
     // Método para o botão "Continuar"
     public void Continuar()
     {
-        if (PlayerPrefs.HasKey("SavedScene"))
+        if (!GameSaveSystem.ContinueGame())
         {
-            string saved = PlayerPrefs.GetString("SavedScene");
-            if (!string.IsNullOrEmpty(saved))
-            {
-                SceneManager.LoadScene(saved);
-                return;
-            }
+            Debug.Log("Nenhum progresso salvo. Iniciando novo jogo...");
+            StartGame();
         }
-        Debug.Log("Nenhum progresso salvo. Iniciando novo jogo...");
-        StartGame();
     }
 
     public void ShowMainMenu()

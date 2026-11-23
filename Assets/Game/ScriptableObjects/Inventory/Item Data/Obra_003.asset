@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b49a6234a23444f906dcd7dd8420ca, type: 3}
+  m_Name: Obra_003
+  m_EditorClassIdentifier: 
+  itemID: 003
+  nomeObra: Saracura
+  descricao: "Matriz isopogr\xE1fica criada por Lucas Pirovani, no ano de 2025.\nAs
+    saracuras s\xE3o aves semi-aqu\xE1ticas pequenas que habitam diversas regi\xF5es
+    do pa\xEDs, essa poderia ser uma Saracura-do-mangue, facilmente encontrada em
+    Sergipe em regi\xF5es de manguezal. Podemos observar algumas esp\xE9cies em caminhadas
+    pela UFS.\nDeve ser ativada em um papel para desbloqueio do v\xEDdeo."
+  imagemObra: {fileID: -8009186674314430395, guid: 7d0115a50de227d42a800af394e977a3, type: 3}
+  videoDemonstrativo: {fileID: 32900000, guid: 3efcb976482a55846bd26856e79caa4a, type: 3}

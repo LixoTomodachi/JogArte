@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,6 +6,7 @@ public class CharacterSelect : MonoBehaviour
 {
     // Nomes das cenas
     public string gameSceneName = "Cena1";
+    public string gameSceneName2 = "Cena1B";
     public string menuSceneName = "MainMenuBackup";
 
     // Nomes dos personagens
@@ -20,42 +22,46 @@ public class CharacterSelect : MonoBehaviour
     }
 
     /// <summary>
-    /// Selecao do personagem Abobrinha - conectar ao botao "Abobrinha"
+    /// Seleção do personagem Abobrinha
+    /// Carrega Cena1B
     /// </summary>
     public void SelectAbobrinha()
     {
         Debug.Log("=== BOTAO ABOBRINHA CLICADO ===");
-        SelectCharacter(ABOBRINHA);
+        SelectCharacter(ABOBRINHA, gameSceneName2);
     }
 
     /// <summary>
-    /// Selecao do personagem Joaomelao - conectar ao botao "Joaomelao"
+    /// Seleção do personagem Joaomelao
+    /// Carrega Cena1
     /// </summary>
     public void SelectJoaomelao()
     {
-        SelectCharacter(JOAOMELAO);
+        Debug.Log("=== BOTAO JOAOMELAO CLICADO ===");
+        SelectCharacter(JOAOMELAO, gameSceneName);
     }
 
     /// <summary>
-    /// Metodo generico para selecionar um personagem
-    /// Salva a escolha em PlayerPrefs e carrega Cena1
+    /// Método genérico para selecionar um personagem
+    /// Salva a escolha e carrega a cena correspondente
     /// </summary>
-    private void SelectCharacter(string characterName)
+    private void SelectCharacter(string characterName, string sceneName)
     {
         Debug.Log("=== SELECTCHARACTER CHAMADO ===");
         Debug.Log("Personagem selecionado: " + characterName);
 
-        // Salva o personagem selecionado para o jogo acessar
+        // Salva o personagem selecionado
         PlayerPrefs.SetString(SELECTED_CHARACTER_KEY, characterName);
         PlayerPrefs.Save();
 
-        Debug.Log("Carregando cena: " + gameSceneName);
-        // Carrega a cena do jogo principal
-        SceneManager.LoadScene(gameSceneName);
+        Debug.Log("Carregando cena: " + sceneName);
+
+        // Carrega somente a cena correspondente ao personagem
+        SceneManager.LoadScene(sceneName);
     }
 
     /// <summary>
-    /// Retorna ao menu principal - conectar ao botao "BackToMenu"
+    /// Retorna ao menu principal
     /// </summary>
     public void BackToMenu()
     {
@@ -64,8 +70,7 @@ public class CharacterSelect : MonoBehaviour
     }
 
     /// <summary>
-    /// Metodo estatico para o jogo principal acessar qual personagem foi selecionado
-    /// Use em Cena1: string character = CharacterSelect.GetSelectedCharacter();
+    /// Retorna o personagem selecionado
     /// </summary>
     public static string GetSelectedCharacter()
     {

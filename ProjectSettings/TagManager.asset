@@ -62,5 +62,8 @@ TagManager:
   - name: Transition
     uniqueID: 1931836939
     locked: 0
+  - name: camadaIntegravel
+    uniqueID: 3330720563
+    locked: 0
   m_RenderingLayers:
   - Default

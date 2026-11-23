@@ -16,6 +16,7 @@ public class CharacterMovement : MonoBehaviour
     [Header("Interação")]
     [SerializeField] private float raioInteracao = 1f;
     [SerializeField] private LayerMask camadaIntegravel;
+    [SerializeField] private Animator animator;
 
     private bool estaNoChao;
     private float direcaoHorizontal;
@@ -46,6 +47,14 @@ public class CharacterMovement : MonoBehaviour
 
         pulosRestantes = maxPulos;
         estaNoChao = true;
+
+        // Animator - Procura em vários lugares
+        if (animator == null)
+            animator = GetComponent<Animator>();
+        if (animator == null)
+            animator = GetComponentInChildren<Animator>();
+        if (animator == null)
+            animator = GetComponentInParent<Animator>();
 
         Debug.Log("=== CharacterMovement Iniciado ===");
         Debug.Log("Rigidbody2D: " + (rb != null ? "✓" : "✗"));
@@ -110,6 +119,12 @@ public class CharacterMovement : MonoBehaviour
     public void InteragirBotao()
     {
         Debug.Log("[INTERAÇÃO]");
+
+        if (animator != null)
+            animator.SetTrigger("Interact");
+        else
+            Debug.LogWarning("Animator não encontrado!");
+
         Interagir();
     }
 

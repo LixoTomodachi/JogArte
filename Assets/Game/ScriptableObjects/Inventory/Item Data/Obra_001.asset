@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b49a6234a23444f906dcd7dd8420ca, type: 3}
+  m_Name: Obra_001
+  m_EditorClassIdentifier: 
+  itemID: 001
+  nomeObra: Parafuso
+  descricao: "Matriz de xilogravura realizada em 2025 por Mestre Nivaldo.\nO Parafuso,
+    manifesta\xE7\xE3o cultural sergipana de Lagarto, representa c\xEAnicamente a
+    fuga de escravizados das senzalas, sendo uma \"dan\xE7a de fuga\".\nOs escravizados
+    cobriam seus corpos completamente e rodavam \"torcendo e distorcendo\", para
+    parecer fantasmas e conseguirem fugir.\n\xC9 necess\xE1rio ativar em uma prensa
+    para desbloquear o video.\n"
+  imagemObra: {fileID: -381090538796570515, guid: 760734dd5c2065247aa53be0c9f803bd, type: 3}
+  videoDemonstrativo: {fileID: 32900000, guid: 8dc46f9b57a0bfa45a1c678cc226517f, type: 3}

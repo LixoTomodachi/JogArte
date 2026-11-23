@@ -853,6 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSceneName: Cena1
+  gameSceneName2: Cena1B
   menuSceneName: MainMenuBackup
 --- !u!4 &794956756
 Transform:

@@ -53,6 +53,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     // Salva a cena, a posição e a velocidade do personagem.
+
     public void SaveGame()
     {
         if (personagem == null)
@@ -66,13 +67,24 @@ public class PauseMenu : MonoBehaviour
         if (rbPersonagem != null)
             velocidade = rbPersonagem.linearVelocity;
 
+        // Salva a cena, a posição e a velocidade do personagem.
         GameSaveSystem.Save(
             SceneManager.GetActiveScene().name,
             personagem.position,
             velocidade
         );
 
-        Debug.Log("Jogo salvo com sucesso!");
+        // Salva inventário, respostas, vídeos e progresso da história.
+        if (SaveManager.Instance != null)
+        {
+            SaveManager.Instance.SalvarJogo();
+        }
+        else
+        {
+            Debug.LogWarning("SaveManager não foi encontrado na cena!");
+        }
+
+        Debug.Log("Salvamento completo realizado!");
     }
 
     // Retorna ao menu principal sem apagar o salvamento.

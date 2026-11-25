@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Cena2A.unity
     guid: d4e2879b06964104298e39fb1e09dec7
+  - enabled: 1
+    path: Assets/Game/Scenes/Cena2B.unity
+    guid: 426902e708c7c8b418c58f3037aa03cc
+  - enabled: 1
+    path: Assets/Game/Scenes/Cena3A.unity
+    guid: 5a6a6d25ccb906b4ead72645f78dbd0a
+  - enabled: 1
+    path: Assets/Game/Scenes/Cena3B.unity
+    guid: ba411b18e56dd84479dde8daa0335395
+  - enabled: 1
+    path: Assets/Game/Scenes/MainMenuEndGame.unity
+    guid: bf0c3a98830657f48be413d129ca8974
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 98d3d6e675165a543ad67482172b621f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

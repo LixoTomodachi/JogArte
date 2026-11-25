@@ -35,7 +35,7 @@ public class MainMenu : MonoBehaviour
             "",
             "Desenvolvido por:",
             "João Victor Modesto dos Santos",
-            "Auxiliado por meus irmãos devs, André, Jhoe e Shini.",
+            "Auxiliado por meus irmãos devs, Luiz, Jhoe e Shini.",
             "",
             "Motor:",
             "Unity Engine",

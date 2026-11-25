@@ -744,12 +744,12 @@ MonoBehaviour:
   alternativaCorreta: 1
   feedbackPanel: {fileID: 1626690590}
   feedbackText: {fileID: 860332597}
-  textoAcerto: "Exato, exato! Muito bem, voc\xEA conclui os desafios, e melhor ainda:
-    aprendeu.\nPara ativar minha obra e as demais, voce vai precisar ir para o DAVD.
-    \nSeguindo em frente, voc\xEA vai se deparar com uma apari\xE7\xE3o (s\xF3 aparece
-    quando precisam dele).\nEle vai te levar at\xE9 o DAVD."
+  textoAcerto: "Exato, exato! \nMuito bem, voc\xEA concluiu os desafios, e melhor
+    ainda: aprendeu.\nPara ativar minha obra e as demais, voce vai precisar ir para
+    o DAVD. \nSeguindo em frente, voc\xEA vai se deparar com uma apari\xE7\xE3o (s\xF3
+    aparece quando precisam dele).\nEle vai te levar at\xE9 o DAVD."
   textoErro: "Vixe, pelo visto pulou algum di\xE1logo ein! Retorne dois personagens
-    e encontrar\xE1s o oraculo. Ele pode te ajudar a encontrar a resposta correta,
+    e encontrar\xE1s o or\xE1culo. Ele pode te ajudar a encontrar a resposta correta,
     sugiro que v\xE1 v\xEA-lo."
   obraPremio: {fileID: 11400000, guid: 8db6165272afc6245a84f03c0a1a9b3e, type: 2}
 --- !u!61 &161823874
@@ -2314,7 +2314,7 @@ MonoBehaviour:
   perguntaID: 003
   questionPanel: {fileID: 1882672981}
   questionText: {fileID: 2145058933}
-  enunciadoPergunta: "Opa, me chamo Lucas Pirovani. Se vec\xEA chegou at\xE9 aqui,
+  enunciadoPergunta: "Opa, me chamo Lucas Pirovani. Se voc\xEA chegou at\xE9 aqui,
     deve saber do que eu vou perguntar. Dentre algumas t\xE9cnicas alternativas,
     qual o nome da que conseguimos ao utilizar como matriz o isopor?"
   resposta1: {fileID: 1501210133}
@@ -2333,8 +2333,8 @@ MonoBehaviour:
     utilizamos como matriz o isopor! \nComo pr\xEAmio, irei te dar uma isopografia
     de minha autoria: Saracura.\nVoce pode verificar ela no seu invent\xE1rio!"
   textoErro: "Poxa, foi quase ein! Mas n\xE3o desista ainda, voc\xEA pode tentar
-    quantas vezes quiser. Mas, se quiser para de chutar e acertar por conhecer, sugiro
-    falar com o Andr\xE9, ele est\xE1 ali em frente ao varal de obras.\nTe vejo depois!"
+    quantas vezes quiser. Se quiser parar de chutar e acertar por conhecer, sugiro
+    falar com o Andr\xE9. Ele est\xE1 ali em frente ao varal de obras.\nTe vejo depois!"
   obraPremio: {fileID: 11400000, guid: 6de43e3d094e15a41a31ea656552c1d6, type: 2}
 --- !u!61 &304980671
 BoxCollider2D:
@@ -9888,7 +9888,7 @@ MonoBehaviour:
     \nComo pr\xEAmio, irei te dar um de meus carimbos. Voce pode usar os itens obtidos
     na sala de BID do DAVD, ent\xE3o passa l\xE1 quando terminar as coisas por aqui."
   textoErro: "Que pena! voc\xEA errou. Mas, estarei aqui caso queira tentar novamente.\nAcredito
-    que voce devesse falar com o sabich\xE3o ali pr\xF3ximo aquele varal, pode ser
+    que voce devesse falar com o sabich\xE3o ali pr\xF3ximo aquele varal. Pode ser
     que ele possa te ajudar com isso."
   obraPremio: {fileID: 11400000, guid: c1c8faf2de23e9d4995d30486f89b46f, type: 2}
 --- !u!61 &1859877462

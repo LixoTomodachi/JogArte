@@ -304,8 +304,8 @@ MonoBehaviour:
   nomeCenaDestino: 
   animatorPersonagemEmCena: {fileID: 7286401}
   triggerAnimacao: Interact
-  painelDialogo: {fileID: 0}
-  textoDialogo: {fileID: 0}
+  painelDialogo: {fileID: 218523841}
+  textoDialogo: {fileID: 1720255076}
   falas:
   - "Obra desbloqueada! Verifique seu invent\xE1rio."
   perguntaID: 
@@ -2440,8 +2440,8 @@ MonoBehaviour:
   nomeCenaDestino: 
   animatorPersonagemEmCena: {fileID: 466939651}
   triggerAnimacao: Interact
-  painelDialogo: {fileID: 0}
-  textoDialogo: {fileID: 0}
+  painelDialogo: {fileID: 218523841}
+  textoDialogo: {fileID: 1720255076}
   falas:
   - "Obra desbloqueada! Verifique seu invent\xE1rio."
   perguntaID: 
@@ -4926,8 +4926,8 @@ MonoBehaviour:
   nomeCenaDestino: 
   animatorPersonagemEmCena: {fileID: 1019302989}
   triggerAnimacao: Interact
-  painelDialogo: {fileID: 0}
-  textoDialogo: {fileID: 0}
+  painelDialogo: {fileID: 218523841}
+  textoDialogo: {fileID: 1720255076}
   falas:
   - "Obra desbloqueada! Verifique seu invent\xE1rio."
   perguntaID: 
@@ -5656,7 +5656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fb458accc05b941b9118bb4715ff0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipoInteracao: 0
+  tipoInteracao: 1
   indicadorInteracao: {fileID: 0}
   nomeCenaDestino: 
   animatorPersonagemEmCena: {fileID: 1119135482}
